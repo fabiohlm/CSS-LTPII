@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .formulario{
+    text-align: left;
+    width: 300px;
+    border: 3px solid black;
+    padding: 5px;
+  }
+  .header{
+    color: white;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: red;
+    width: auto;
+  }
+  #tituloheader {
+    display: inline;
+    
+  }
+  #menuheader{
+    display: inline;
+  }
