@@ -1,27 +1,83 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .formulario{
-    text-align: left;
-    width: 300px;
-    border: 3px solid black;
-    padding: 5px;
-  }
-  .header{
-    color: white;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: red;
-    width: auto;
-  }
-  #tituloheader {
-    display: inline;
-    
-  }
-  #menuheader{
-    display: inline;
-  }
+  font-family: Arial, Helvetica, sans-serif;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #434444;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: medium;
+}
+p{
+  width:50%;
+}
+table, th, tr{
+margin-top: 10px;
+margin-bottom: 10px;
+border-collapse: collapse;
+border: 2px solid rgb(140 140 140);
+}
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  font-weight: 900;
+}
+.formulario{
+  text-align: left;
+  width: 300px;
+  padding: 5px;
+}
+.header{
+  color: white;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: red;
+  width: auto;
+}
+#tituloheader {
+  display: inline;
+  font-style: italic;
+  
+}
+#menuheader{
+  display: inline;
+  margin-left: 680px;
+}
